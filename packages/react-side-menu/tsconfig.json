@@ -15,5 +15,6 @@
     "noEmit": true,
     "jsx": "preserve"
   },
-  "include": ["packages/*/src"]
+  "include": ["src"],
+  "exclude": ["../../node_modules", "node_modules", "build"]
 }
