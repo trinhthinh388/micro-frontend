@@ -31,7 +31,9 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:code": "eslint src --ext .js,.jsx,.ts,.tsx && stylelint --allow-empty-input \"src/**/*.(js|jsx|ts|tsx)\" && prettier src --check",
+    "lint": "yarn lint:code"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
