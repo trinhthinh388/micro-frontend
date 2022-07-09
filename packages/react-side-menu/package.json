@@ -2,7 +2,7 @@
   "name": "react-side-menu",
   "version": "0.0.0",
   "description": "",
-  "author": "thinh.trinh <thinhtd@wolffungame.com>",
+  "author": "thinh.trinh",
   "homepage": "",
   "license": "ISC",
   "main": "src/index.tsx",

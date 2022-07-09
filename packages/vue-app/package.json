@@ -1,0 +1,27 @@
+{
+  "name": "vue-app",
+  "version": "0.0.0",
+  "description": "",
+  "author": "thinh.trinh",
+  "homepage": "https://github.com/trinhthinh388/micro-frontend#readme",
+  "license": "ISC",
+  "main": "src/index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinhthinh388/micro-frontend.git"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.7.4",
+    "vite": "^2.9.14",
+    "vue-tsc": "^0.38.3"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  }
+}
