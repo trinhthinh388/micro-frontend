@@ -1,0 +1,22 @@
+{
+  "name": "mock-api",
+  "version": "0.0.0",
+  "description": "",
+  "author": "thinh.trinh <trinhthinh388@gmail.com>",
+  "homepage": "https://github.com/trinhthinh388/micro-frontend#readme",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinhthinh388/micro-frontend.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/trinhthinh388/micro-frontend/issues"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}

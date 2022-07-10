@@ -1,5 +1,5 @@
 {
-  "name": "vue-app",
+  "name": "product-list",
   "version": "0.0.0",
   "description": "",
   "author": "thinh.trinh",
@@ -17,7 +17,9 @@
     "vue-tsc": "^0.38.3"
   },
   "dependencies": {
-    "vue": "^3.2.37"
+    "@fontsource/montserrat": "^4.5.11",
+    "vue": "^3.2.37",
+    "mock-api": "*"
   },
   "scripts": {
     "dev": "vite",
